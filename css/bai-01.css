@@ -1,0 +1,58 @@
+.all{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+._header{
+    position: relative;
+    font-family: sans-serif;
+    
+}
+
+._nav{
+    position: absolute;
+    background-color: rgb(93, 198, 18);
+    width: 100%;
+    height: 30%;
+}
+._a{
+    position: absolute; 
+   left: 90%; 
+}
+._main{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+}
+.aside_1
+{
+    width: 80%;
+    height: auto;
+}
+.div1{
+    box-sizing: border-box;
+    width: 40%;
+}
+
+.img_article{
+    width: 70%;
+}
+
+.aside_2{
+    position: absolute;
+    left: 40%;
+    height: auto;
+    top: 10px;
+}
+.avata{
+    width:20% ;
+}
+
+.eding{
+    position:absolute;
+    width: 100%;
+    top: 130rem;
+    text-align: center;
+    background-color: blue;
+    color: chartreuse;
+}

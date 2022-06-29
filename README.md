@@ -1,5 +1,6 @@
-<img src="design/logo.png" alt="Kmin Academy" width="150"/>
 
+
+<img src="design/logo.png" alt="Kmin Academy" width="150"/>
 
 # Thử thách 01 - Làm quen với HTML
 

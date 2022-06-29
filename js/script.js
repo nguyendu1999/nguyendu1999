@@ -1,0 +1,1 @@
+alert("Kmin chào bạn!");
