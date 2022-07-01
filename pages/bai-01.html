@@ -7,37 +7,37 @@
     <title>bai-01</title>
     <link rel="stylesheet" href="../css/bai-01.css">
 </head>
-<body class="all" >
-    <header class="_header" >
-        <h1>Trang web đầu tiên</h1>
+<body>
+    <header class="row" >
+        <h1 class="h11" >Trang web đầu tiên</h1>
         <img src="../img/planets.gif" alt="ảnh mặt trời">
-        <nav >
-            <div class="_nav">
-                <a href="https://www.facebook.com/">Footer</a>
-                <a href="">Sun</a>
-                <a href="">Gọi ngay</a>
-                <a href="">Lời chào</a>
-                <a href="">Liên hệ</a>
-                <a class="_a"  href="">Tìm kiếm</a>
-            </div>
-        </nav>
     </header>
-
-    <main class="_main" >
-        <aside class="aside_1" >
-            <section>
-                <div class="div1" >
-                    <h1>Tiêu đề 1</h1>
+    <nav class="row" >
+        <div class="_nav">
+            <a href="https://www.facebook.com/">Footer</a>
+            <a href="sun.html">Sun</a>
+            <a href="tel:(+84) 08 16 02 04 16">Gọi ngay</a>
+            <a href="#" onclick="alert('Kmin chào bạn!')">Lời chào</a>
+            <a href="mailto:academy@kmin.edu.vn">Liên hệ</a>
+            <a class="_a" target="_blank" href="https://www.google.com.vn/?hl=vi">Tìm kiếm</a>
+        </div>
+    </nav>
+    <div class="row" >
+        <article>
+            <section class="section_1" >
+                 <div class="div1" >
+                    <h1 class="tieudeh1" >Tiêu đề 1</h1>
                     <b>Mô tả ngắn, Dec 7 ,2025</b><br>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Repellat dolorum deleniti, inventore beatae, ipsum unde consequutur.</p>
                     <img class="img_article" src="../img/article01.jpg" alt="canh thien nhien">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ab eius veritatis, ratione accusamus sapiente obcaeati magni deserunt sint voluptatem provident mollitia fugiat dignissimos tempora esse iure nisi id volptate. Lorem ipsum dolor sint amet, consectetur adipsicing elit. neque ab eius veritatis, ratione accusamus sapiente obcaevati magni desrrunt sint volptatem provident mollitia fugiat dignissimos tempora esse iure nisi id voluptate.</p>
                 </div>
-             </section>
+            </section>
             <section>
-                <!-- <h1>Tiêu đề 2</h1> -->
+                <h2 class="tieude2" >Tiêu đề 2</h2>
                 <b>Mô tả ngắn, Dec 7, 2025</b><br>
                 <table border="1" >
+                    <caption>Danh sách học viên tham gia Bug Sharing</caption>
                     <tr>
                         <th>Họ tên</th>
                         <th>Lớp</th>
@@ -46,7 +46,7 @@
                     <tr>
                         <td>Vũ Đình Bảo</td>
                         <td>Tư duy lâp và kỹ năng lập trình</td>
-                        <td>0384004398</td>
+                        <td><a href="tel:0384004398">0384004398</a></td>
                     </tr>
                     <tr>
                         <td> Lê Hồng Phúc</td>
@@ -58,40 +58,40 @@
                         <td>Lập trình back-end với nodeJS</td>
                         <td>null</td>
                     </tr>
-                </table>
             </section>
             <section>
-                <h1>Tiêu đề 03</h1>
-                <p>các món có thể gọi:</p>
-                <ul style="list-style-type:square" >
-                    <li>Coffee</li>
-                    <li>Tea</li>
-                    <li>Coca Colo</li>
-                </ul>
-                <ul>
-                    <li>Coffee</li>
-                    <li>Tea</li>
-                    <li>Coca Colo</li>
-                </ul>
-                <hr>
-                <p>Các món có thể gọi:</p>
-                <ol style="list-style-type:upper-alpha;" >
-                    <li>Coffee</li>
-                    <li>Tea</li>
-                    <li>Coca Colo</li>
-                </ol>
-                <ol style="list-style-tyep:ampha;" >
-                    <li>Coffee</li>
-                    <li>Tea</li>
-                    <li>Coca Colo</li>
-                </ol>
-                <hr>
-                    <p>Coffee và Milk Nghĩa là gì?</p>
+                </table>
+                    <h2 class="tieude3" >Tiêu đề 03</h2>
+                    <p>các món có thể gọi:</p>
+                    <ul style="list-style-type:square" >
+                        <li>Coffee</li>
+                        <li>Tea</li>
+                        <li>Coca Colo</li>
+                    </ul>
+                    <ul>
+                        <li>Coffee</li>
+                        <li>Tea</li>
+                        <li>Coca Colo</li>
+                    </ul>
+                    <hr>
+                    <p>Các món có thể gọi:</p>
+                    <ol style="list-style-type:upper-alpha;" >
+                        <li>Coffee</li>
+                        <li>Tea</li>
+                        <li>Coca Colo</li>
+                    </ol>
+                    <ol style="list-style-tyep:ampha;" >
+                        <li>Coffee</li>
+                        <li>Tea</li>
+                        <li>Coca Colo</li>
+                    </ol>
+                    <hr>
                     <dl>Coffee
-                        <dd>Thức uống cho bạn phê</dd>
+                        <dd>- Thức uống cho bạn phê</dd>
                     </dl>
+                    <p>Coffee và Milk Nghĩa là gì?</p>
                     <dl>
-                        <dd>Thức uống tốt cho sức khỏe</dd>
+                        <dd>- Thức uống tốt cho sức khỏe</dd>
                     </dl>
                     <hr>
                     <p>Menu chi tiết hơn</p>
@@ -104,45 +104,48 @@
                         </ul>
                         <li>Milk</li>
                     </ul>
+                </table>
             </section>
             <section>
                 <h1>Đăng ký khóa học</h1>
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSevn96h9DiVPWt5dXdyJx_4S29PcmLAh5fKTKhksw2wvJoaXQ/viewform?embedded=true" frameborder="0"></iframe>
             </section>
-        </aside>
-        <aside class="aside_2" >
-            <section>
-                <img class="avata"  src="../img/avarta.png" alt="hình thầy Bảo">
-                <h1>Vũ Đình Bảo</h1>
-                <p>Lorem ispum dolor sit amet, consectetur adipsicing elit</p>
-            </section>
-            <section>
-                <h1>Bài mới</h1>
-                <audio controls >
-                    <source src="../media/audio.mp3" type="audio/mpeg" >
-                </audio>
-                <video controls>
-                    <source src="../media/video.mp4"  >
-                </video>
-            </section>
-            <section>
-                <h1>Tin vắng </h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </section>
-            <section>
-                <h1>Chúc mừng năm mới:v</h1>
-                <img src="../img/noel.gif" alt="Ông zà noel">
-            </section>
-            <section>
-                <h1>Theo dõi fanpage</h1>
-                <p>xin chao tam biet</p>
-            </section>
-        </aside>
-    </main>
-
-    <footer>
-       <div class="eding"  >
-            <h1>Footer:Kmin Academy</h1>
-       </div>
+        </article>    
+        <aside >
+            <div>
+                <section>
+                    <img class="avata"  src="../img/avarta.png" alt="hình thầy Bảo">
+                    <h1 class="name" >Vũ Đình Bảo</h1>
+                    <p>Lorem ispum dolor sit amet, consectetur</p><br>
+                    <p class="text" >adipsicing elit</p>
+                </section>
+                <section>
+                    <h1>Bài mới</h1>
+                    <audio controls >
+                        <source src="../media/audio.mp3" type="audio/mpeg" >
+                    </audio><br>
+                    <video width="100%" height="30%" controls>
+                        <source src="../media/video.mp4"  >
+                    </video>
+                </section>
+                <section>
+                    <h1>Tin vắng </h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </section>
+                <section>
+                    <h2>Chúc mừng năm mới</h2>
+                        <a href="https://kmin.edu.vn/"> <img  class=" img_3" src="../design/noel.png" alt="ong zà no el"></a>
+                </section>
+                <section>
+                    <h1>Theo dõi fanpage</h1>
+                    <iframe src="" frameborder="0"></iframe>
+                </section>
+            </div>
+        </aside> 
+    </div>
+    </header>
+    <footer class="row" >
+        <h2>Footer:Kmin Academy</h2>
     </footer>
     
 </body>
